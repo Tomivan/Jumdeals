@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>Tracker</title>
 </head>
 <body>
     <nav class="nav">
-        <img src="" alt="">
-        <hr />
+        <p><strong> <i>Jumdeals</i></strong></p>
+        <hr class="nav-hr"/>
         <div class="nav-middle">
             <ul>
                 <li>HOME</li>
@@ -18,101 +19,103 @@
                 <li>TOOLS</li>
                 <li>BLOG</li>
             </ul>
-            <div social-media>
-                <img src="./assets/images/instagram.png" alt="">
-                <img src="./assets/images/linkedin.png" alt="">
-                <img src="./assets/images/facebook.png" alt="">#
-                <img src="./assets/images/twitter.png" alt="">
+            <div class="social-media">
+                <img src="./assets/images/instagram.png" alt="" class="social-icon">
+                <img src="./assets/images/linkedin.png" alt="" class="social-icon">
+                <img src="./assets/images/facebook.png" alt="" class="social-icon">
+                <img src="./assets/images/twitter.png" alt="" class="social-icon">
             </div>
-            <hr />
-            <button class="login">Login</button>
-            <img src="" alt="">
         </div>
+        <hr class="nav-hr"/>
+        <button class="login">Login</button>
+        <img src="" alt="">
     </nav>
     <main class="main">
         <h1>TRACK JUMIA PRICES FOR FREE</h1>
         <p>WE track prices and availability of Jumia products for you!</p>
         <p>Get the best prices and save money by utilising jumdeals.com</p>
-        <label class="label">Select your Jumia Market</label>
-        <select>
-            <option>Nigeria</option>
-            <option>Ghana</option>
-            <option>South Africa</option>
-            <option>Egypt</option>
-            <option>Morocco</option>
-        </select>
+        <div class="select">
+            <label class="label">Select your Jumia Market</label>
+            <select>
+                <option>Nigeria</option>
+            </select>
+        </div>
         <div class="input">
-            <input type="search" placeholder="Enter a Jumia URL, ASIN or product name" />
-            <img src="./assets/images/search.png" alt="">
+            <input type="search" placeholder="Enter a Jumia URL, ASIN or product name" class="jumia-input"/>
+            <img src="./assets/images/search.png" alt="" class="search-icon">
         </div>
     </main>
     <section class="section">
         <h2>Our Features</h2>
-        <div class="feature-card">
-            <img src="./assets/images/chart.png" alt="">
-            <h3>Jumia Price History Chart</h3>
-            <p>Pleasure, but because those who do not know how to pursue</p>
-        </div>
-        <div class="feature-card">
-            <img src="./assets/images/dollar.png" alt="">
-            <h3>Jumia Price Tracker</h3>
-            <p>But i must explain to you all this mistaken idea denouncing</p>
-        </div>
-        <div class="feature-card">
-            <img src="./assets/images/nosound.png" alt="">
-            <h3>Jumia Product Availability Tracker</h3>
-            <p>Pleasure, but because those who do not know how to pursue</p>
+        <div class="feature-section">
+            <div class="feature-card">
+                <img src="./assets/images/chart.png" alt="">
+                <h3>Jumia Price History Chart</h3>
+                <p>Pleasure, but because those who do not know how to pursue</p>
+            </div>
+            <div class="feature-card">
+                <img src="./assets/images/dollar.png" alt="">
+                <h3>Jumia Price Tracker</h3>
+                <p>But i must explain to you all this mistaken idea denouncing</p>
+            </div>
+            <div class="feature-card">
+                <img src="./assets/images/nosound.png" alt="">
+                <h3>Jumia Product Availability Tracker</h3>
+                <p>Pleasure, but because those who do not know how to pursue</p>
+            </div>
         </div>
     </section>
     <section class="hot-deals-section">
         <div class="top-section">
             <div class="hot-deals">
-                <img src="./assets/images/heels.png" alt="">
+                <img src="./assets/images/hot.png" alt="" class="section-icon">
                 <h3>Hot Deals</h3>
             </div>
             <p>View all</p>
         </div>
-        <div class="box">
-            <img src="./assets/images/cream.png" alt="">
-            <p>Samsung Galaxy Z Fold3 5G (Phantom Black, 12GB RAM, 256GB Storage) with No Cost EMI/Additional Exchange Offers</p>
-            <div class="price"> 
-                <div class="current">
-                    <p>Jumia price</p>
-                    <p>$399</p>
-                </div>
-                <div class="discount">
-                    <p>Discount</p>
-                    <p>save $79(20%)</p>
-                </div>
-                <button class="buy">Buy it on Jumia</button>
-            </div>
-        </div>
-        <div class="box">
-            <img src="./assets/images/rolls.png" alt="">
-            <p>Samsung Galaxy Z Fold3 5G (Phantom Black, 12GB RAM, 256GB Storage) with No Cost EMI/Additional Exchange Offers</p>
-            <div class="price"> 
-                <div class="current">
-                    <p>Jumia price</p>
-                    <p>$399</p>
-                </div>
-                <div class="discount">
-                    <p>Discount</p>
-                    <p>save $79(20%)</p>
+        <div class="box-section">
+            <div class="box">
+                <img src="./assets/images/heels.png" alt="" class="deals-image">
+                <p>Samsung Galaxy Z Fold3 5G (Phantom Black, 12GB RAM, 256GB Storage) with No Cost EMI/Additional Exchange Offers</p>
+                <div class="price"> 
+                    <div class="current">
+                        <p>Jumia price</p>
+                        <p>$399</p>
+                    </div>
+                    <div class="discount">
+                        <p>Discount</p>
+                        <p>save $79(20%)</p>
+                    </div>
                 </div>
                 <button class="buy">Buy it on Jumia</button>
             </div>
-        </div>
-        <div class="box">
-            <img src="" alt="">
-            <p>Samsung Galaxy Z Fold3 5G (Phantom Black, 12GB RAM, 256GB Storage) with No Cost EMI/Additional Exchange Offers</p>
-            <div class="price"> 
-                <div class="current">
-                    <p>Jumia price</p>
-                    <p>$399</p>
+            <div class="box">
+                <img src="./assets/images/cream.png" alt="" class="deals-image">
+                <p>Samsung Galaxy Z Fold3 5G (Phantom Black, 12GB RAM, 256GB Storage) with No Cost EMI/Additional Exchange Offers</p>
+                <div class="price"> 
+                    <div class="current">
+                        <p>Jumia price</p>
+                        <p>$399</p>
+                    </div>
+                    <div class="discount">
+                        <p>Discount</p>
+                        <p>save $79(20%)</p>
+                    </div>
                 </div>
-                <div class="discount">
-                    <p>Discount</p>
-                    <p>save $79(20%)</p>
+                <button class="buy">Buy it on Jumia</button>
+            </div>
+            <div class="box">
+                <img src="./assets/images/rolls.png" alt="" class="deals-image">
+                <p>Samsung Galaxy Z Fold3 5G (Phantom Black, 12GB RAM, 256GB Storage) with No Cost EMI/Additional Exchange Offers</p>
+                <div class="price"> 
+                    <div class="current">
+                        <p>Jumia price</p>
+                        <p>$399</p>
+                    </div>
+                    <div class="discount">
+                        <p>Discount</p>
+                        <p>save $79(20%)</p>
+                    </div>
                 </div>
                 <button class="buy">Buy it on Jumia</button>
             </div>
@@ -121,52 +124,54 @@
     <section class="popular-deals-section">
         <div class="top-section">
             <div class="popular-deals">
-                <img src="" alt="">
+                <img src="./assets/images/popular.png" alt="" class="section-icon">
                 <h3>Popular Deals</h3>
             </div>
             <p>View all</p>
         </div>
-        <div class="box">
-            <img src="./assets/images/heels.png" alt="">
-            <p>Samsung Galaxy Z Fold3 5G (Phantom Black, 12GB RAM, 256GB Storage) with No Cost EMI/Additional Exchange Offers</p>
-            <div class="price"> 
-                <div class="current">
-                    <p>Jumia price</p>
-                    <p>$399</p>
-                </div>
-                <div class="discount">
-                    <p>Discount</p>
-                    <p>save $79(20%)</p>
-                </div>
-                <button class="buy">Buy it on Jumia</button>
-            </div>
-        </div>
-        <div class="box">
-            <img src="./assets/images/dollar.png" alt="">
-            <p>Samsung Galaxy Z Fold3 5G (Phantom Black, 12GB RAM, 256GB Storage) with No Cost EMI/Additional Exchange Offers</p>
-            <div class="price"> 
-                <div class="current">
-                    <p>Jumia price</p>
-                    <p>$399</p>
-                </div>
-                <div class="discount">
-                    <p>Discount</p>
-                    <p>save $79(20%)</p>
+        <div class="box-section">
+            <div class="box">
+                <img src="./assets/images/heels.png" alt="" class="deals-image">
+                <p>Samsung Galaxy Z Fold3 5G (Phantom Black, 12GB RAM, 256GB Storage) with No Cost EMI/Additional Exchange Offers</p>
+                <div class="price"> 
+                    <div class="current">
+                        <p>Jumia price</p>
+                        <p>$399</p>
+                    </div>
+                    <div class="discount">
+                        <p>Discount</p>
+                        <p>save $79(20%)</p>
+                    </div>
                 </div>
                 <button class="buy">Buy it on Jumia</button>
             </div>
-        </div>
-        <div class="box">
-            <img src="./assets/images/nosound.png" alt="">
-            <p>Samsung Galaxy Z Fold3 5G (Phantom Black, 12GB RAM, 256GB Storage) with No Cost EMI/Additional Exchange Offers</p>
-            <div class="price"> 
-                <div class="current">
-                    <p>Jumia price</p>
-                    <p>$399</p>
+            <div class="box">
+                <img src="./assets/images/cream.png" alt="" class="deals-image">
+                <p>Samsung Galaxy Z Fold3 5G (Phantom Black, 12GB RAM, 256GB Storage) with No Cost EMI/Additional Exchange Offers</p>
+                <div class="price"> 
+                    <div class="current">
+                        <p>Jumia price</p>
+                        <p>$399</p>
+                    </div>
+                    <div class="discount">
+                        <p>Discount</p>
+                        <p>save $79(20%)</p>
+                    </div>
                 </div>
-                <div class="discount">
-                    <p>Discount</p>
-                    <p>save $79(20%)</p>
+                <button class="buy">Buy it on Jumia</button>
+            </div>
+            <div class="box">
+                <img src="./assets/images/rolls.png" alt="" class="deals-image">
+                <p>Samsung Galaxy Z Fold3 5G (Phantom Black, 12GB RAM, 256GB Storage) with No Cost EMI/Additional Exchange Offers</p>
+                <div class="price"> 
+                    <div class="current">
+                        <p>Jumia price</p>
+                        <p>$399</p>
+                    </div>
+                    <div class="discount">
+                        <p>Discount</p>
+                        <p>save $79(20%)</p>
+                    </div>
                 </div>
                 <button class="buy">Buy it on Jumia</button>
             </div>
@@ -175,9 +180,9 @@
     <section class="welcome">
         <h2>Welcome to Jumdeals.com</h2>
         <p>a free Amazon price tracker and Amazon product availability tracker!
-            Do you shop online and want to track product prices or product availability of 
-            Amazon products? Well, amzdealz.net is here to help you! We provide a reliable 
-            product price tracker for Amazon products. Read more</p>
+            Do you shop online<br /> and want to track product prices or product availability of 
+            Amazon products?<br /> Well, amzdealz.net is here to help you! We provide a reliable 
+            product price tracker for<br /> Amazon products. Read more</p>
         <img src="./assets/images/googleplay.png" alt="">
         <p>Read more about our features here</p>
     </section>
@@ -189,28 +194,32 @@
             </div>
             <p>View all</p>
         </div>
-        <div class="box">
-            <img src="./assets/images/bigwhatsapp.png" alt="">
-            <p>Samsung Galaxy Z Fold3 5G (Phantom Black, 12GB RAM, 256GB Storage) with No Cost EMI/Additional Exchange Offers</p>
-        </div>
-        <div class="box">
-            <img src="./assets/images/biginstagram.png" alt="">
-            <p>Samsung Galaxy Z Fold3 5G (Phantom Black, 12GB RAM, 256GB Storage) with No Cost EMI/Additional Exchange Offers</p>
-        </div>
-        <div class="box">
-            <img src="./assets/images/bigyoutube.png" alt="">
-            <p>Samsung Galaxy Z Fold3 5G (Phantom Black, 12GB RAM, 256GB Storage) with No Cost EMI/Additional Exchange Offers</p>
+        <div class="box-section">
+            <div class="box-1">
+                <img src="./assets/images/bigwhatsapp.png" alt="">
+                <p>Samsung Galaxy Z Fold3 5G (Phantom Black, 12GB RAM, 256GB Storage) with No Cost EMI/Additional Exchange Offers</p>
+            </div>
+            <div class="box-1">
+                <img src="./assets/images/biginstagram.png" alt="">
+                <p>Samsung Galaxy Z Fold3 5G (Phantom Black, 12GB RAM, 256GB Storage) with No Cost EMI/Additional Exchange Offers</p>
+            </div>
+            <div class="box-1">
+                <img src="./assets/images/bigyoutube.png" alt="">
+                <p>Samsung Galaxy Z Fold3 5G (Phantom Black, 12GB RAM, 256GB Storage) with No Cost EMI/Additional Exchange Offers</p>
+            </div>
         </div>
     </section>
+    <hr />
     <footer class="footer">
         <div class="about-us">
             <h3>About us</h3>
-            <p>amzdealz.net attaches great importance to current deal information. 
-                All prices including sales tax. Interim changes in prices, ranking, 
-                delivery time and costs possible. The information regarding the price 
-                and availability shown on the Amazon site at the time of purchase is 
-                that valid for the purchase. amzdealz.net receives a commission for all 
-                purchases via our Amazon links. As an Amazon Associate we earn from qualifying purchases.</p>
+            <p>amzdealz.net attaches great importance to current deal<br /> information. 
+                All prices including sales tax. Interim changes<br /> in prices, ranking, 
+                delivery time and costs possible. The<br /> information regarding the price 
+                and availability shown on<br /> the Amazon site at the time of purchase is 
+                that valid for the<br /> purchase. amzdealz.net receives a commission for all<br /> 
+                purchases via our Amazon links. As an Amazon Associate we <br /> 
+                earn from qualifying purchases.</p>
         </div>
         <div class="footer-middle">
             <div class="jumdeals">
@@ -245,11 +254,11 @@
             <div class="follow-us">
                 <p>Follow us</p>
                 <div class="social-media">
-                    <img src="./assets/images/twitter.png" alt="">
-                    <img src="./assets/images/Behance.png" alt="">
-                    <img src="./assets/images/linkedin.png" alt="">
-                    <img src="./assets/images/instagram.png" alt="">
-                    <img src="./assets/images/facebook.png" alt="">
+                    <img src="./assets/images/twitter.png" alt="" class="footer-icon">
+                    <img src="./assets/images/Behance.png" alt="" class="footer-icon">
+                    <img src="./assets/images/linkedin.png" alt="" class="footer-icon">
+                    <img src="./assets/images/instagram.png" alt="" class="footer-icon">
+                    <img src="./assets/images/facebook.png" alt="" class="footer-icon">
                 </div>
             </div>
             <hr />
@@ -257,18 +266,18 @@
                 <p>Subscribe</p>
                 <p>Send me tips, trends, freebies, updates & offers</p>
                 <div class="input">
-                    <input type="text" placeholder="Email Address">
+                    <input type="text" placeholder="Email Address" class="subscribe-input">
                     <button class="subscribe-button">Subscribe</button>
                 </div>
             </div>
         </div>
-        <hr />
-        <div class="copyright">
-            <p>2022 Jumdeals. All rights reserved</p>
-            <div class="terms">
-                <p>Terms and condition</p>
-            </div>
-        </div>
     </footer>
+    <hr />
+    <div class="copyright">
+        <p>&copy; 2022 Jumdeals. All rights reserved</p>
+        <div class="terms">
+            <p>Terms and conditions</p>
+        </div>
+    </div>
 </body>
 </html>
